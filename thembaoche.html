@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Thêm tập tin excel</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="panel panel-info" style="text-align: center;">
+        <div class="panel-heading">
+            <h4>Nhập file excel cần thêm</h4>
+        </div>
+        <div style="width: 60%; margin: auto;padding: 30px;display: table;">
+        <form action="thembc.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group col-sm-10">
+                <label class="col-sm-4" >Chọn file excel:</label>
+                <input type="file" class=" col-sm-8 form-control" name="file" id="file"  >
+            </div>
+            <input type="submit" value="Nhập vào" name="submit" class="btn btn-primary col-sm-2">
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
